@@ -239,7 +239,24 @@ footer .social img {
     padding-top: 15px;
 }
 
-/* PAGE 2 CSS */
+/* FAQ Page */
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headline {
+    font-size: 8em;
+    text-align: center;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6 {
+    text-decoration: underline;
+    background-color:  rgb(253, 106, 106);
+    text-align: center;
+}
+
+
 
 /* MEDIA QUERY */
 @media screen and (max-width: 900px) {
